@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Virtual environments & uv
+.venv/
+venv/
+env/
+.python-version
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Testing & linters (pytest, ruff, coverage)
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# IDE & editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Optional: Ignore large or raw datasets if you don't want them tracked
+# data/*.csv
+# data/*.parquet
